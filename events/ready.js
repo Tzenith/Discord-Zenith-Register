@@ -9,7 +9,7 @@ var prefix = ayarlar.prefix;
 module.exports = client => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: ${client.user.username} ismi ile giriş yapıldı!`);
   client.user.setStatus("idle");
-  client.user.setActivity('The.Zenith💜Petrichor',{ status: "idle" });
+  client.user.setActivity('The.Zenith💜',{ status: "idle" });
 //Burayı Güncellemeyi Unutmayın\\
 //Yoksa Botunuzun Durumun'da Benim setActivity'm Gözükür.\\
 };
